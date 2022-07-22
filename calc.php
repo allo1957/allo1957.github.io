@@ -1,3 +1,4 @@
+<?php
 <script type="text/javascript">
 function Show1() {
 obj=document.getElementById("mydiv1"); obj.style.display="block";
@@ -146,4 +147,4 @@ document.getElementById('placeForText1').innerHTML="Калорийность = "
   }
   </script>
 <div id="outputArea" style="text-transform: uppercase"; padding: 5px; margin: 10px 0"></div><div id="placeForText1"></div>
- 
+?>

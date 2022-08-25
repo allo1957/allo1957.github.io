@@ -3,6 +3,8 @@
 Template 1 for creating new application on [VK Mini Apps](https://vk.com/vkappsdev) 
 platform
 
+<h2>Калькулятор</h2>
+
 Stack:
 - Create React App
 - VK Bridge

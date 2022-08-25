@@ -1,9 +1,7 @@
-# Mini Apps template 1
+# Расчет местоположения
 
-Template 1 for creating new application on [VK Mini Apps](https://vk.com/vkappsdev) 
-platform
 
-<h2>Погода, там где ты</h2>
+<h2>Погода вокруг тебя</h2>
 
   <p>This is coordinate:</p>
   <p class="coord"></p>

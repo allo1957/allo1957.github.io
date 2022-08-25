@@ -3,10 +3,10 @@
 
 <h2>Погода вокруг тебя</h2>
 
-  <p>This is coordinate:</p>
+  <p>Твои координаты:</p>
   <p class="coord"></p>
   <p id="demo"></p>
-  <button onclick="getLocation()">Click me</button>
+  <button onclick="getLocation()">Жми</button>
   <script>
     var x = document.getElementById("demo");
     function getLocation() {
@@ -14,7 +14,7 @@
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(showPosition);
         } else {
-            x.innerHTML = "Geolocation is not supported by this browser.";
+            x.innerHTML = "Геолокация не поддерживается в этом браузере!";
         }
     }
     function showPosition(position) {

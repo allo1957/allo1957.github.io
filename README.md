@@ -1,6 +1,6 @@
 # Mini Apps template 1
 
-Template for creating new application on [VK Mini Apps](https://vk.com/vkappsdev) 
+Template 1 for creating new application on [VK Mini Apps](https://vk.com/vkappsdev) 
 platform
 
 Stack:

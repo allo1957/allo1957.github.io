@@ -17,10 +17,10 @@
             x.innerHTML = "Геолокация не поддерживается в этом браузере!";
         }
     }
-  var lt = position.coords.latitude;
-  var ln = position.coords.longitude;
     function showPosition(position) {
-        x.innerHTML = "Широта: " + lt + 
-        "<br>Долгота: " + ln; 
+      var lt = position.coords.latitude;
+      var ln = position.coords.longitude;
+       x.innerHTML = "Широта: " + lt + 
+        "<br>Долгота: " + ln + "<br>Успех!"; 
     }
   </script>
